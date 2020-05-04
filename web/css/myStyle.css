@@ -1,0 +1,346 @@
+/*Base css*/
+.container-fluid {
+    margin-top: 1em;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, .25);
+}
+
+.table {
+    background-color: #d9d9d9;
+    background-image: linear-gradient(170deg, #ebebeb 0%, #f6f2f2 74%);
+    border-radius: 15px;
+    box-shadow: 0 0 5px 1px #045de9;
+}
+
+.table thead th {
+    vertical-align: middle;
+    border-top: none;
+    border-bottom: 2px solid #6da6ff;
+    text-align: center;
+    transition: .5s;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    border-bottom: none;
+    text-align: center;
+}
+
+td, th {
+    font-family: sans-serif;
+}
+
+.table-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 99, 255, 0.15);
+    transition: .5s;
+    cursor: pointer;
+}
+
+button {
+    outline: none !important;
+    transition: .5s;
+}
+
+i {
+    font-weight: 100 !important;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #d9d9d9;
+    background-image: linear-gradient(170deg, #ebebeb 0%, #f6f2f2 74%);
+    box-shadow: 0 0 0px 3px #6da6ff;
+    border: solid;
+    border-width: medium;
+    border-color: white;
+    border-radius: 20px;
+}
+
+button:hover i {
+    transform: scale(1.3, 1.3);
+    text-shadow: 0 0 5px #c6c6c6;
+    transition: .5s;
+}
+
+.btn-outline-secondary:hover {
+    border: solid;
+    border-width: medium;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.form-control:focus {
+    border-color: white;
+    border-width: medium;
+    box-shadow: 0 0 5px 1px #61fa74;
+    color: black;
+    border-right: none;
+}
+
+.searchInput::placeholder {
+    color: white !important;
+}
+
+.input-group-append {
+    margin-left: 2px;
+}
+
+/*Added css*/
+.searchBox {
+    background-color: #d9d9d9;
+    background-image: linear-gradient(170deg, #ebebeb 0%, #f6f2f2 74%);
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-style: solid;
+    border-bottom: none;
+    border-color: #6da6ff;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: 3%;
+}
+
+.searchBtn {
+    background-color: #dbf26e;
+    background-image: linear-gradient(319deg, #dbf26e 0%, #61fa74 37%, #1cfdd6 100%);
+    color: white;
+    text-shadow: 0 0 1px black;
+    border: solid;
+    border-width: medium;
+    border-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px #61fa74;
+    padding-left: 40px;
+    font-weight: 100;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.searchInput {
+    margin: 0 !important;
+    background-color: rgba(49, 255, 24, 0.35);
+    border-color: white;
+    border-width: medium;
+    border-right: none;
+    box-shadow: 0 0 5px 1px #61fa74;
+    color: black;
+    transition: 1s;
+}
+
+.pos {
+    text-align: left !important;
+}
+
+.add {
+    background-color: #dbf26e;
+    background-image: linear-gradient(319deg, #dbf26e 0%, #61fa74 37%, #1cfdd6 100%);
+    color: white;
+    text-shadow: 0 0 1px black;
+    border: solid;
+    border-width: medium;
+    border-color: white;
+    border-radius: 20px;
+    padding-left: 40px;
+    font-weight: 100;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 0 0 5px 1px #61fa74;
+}
+
+.btnDelete, .btnEdit, .btnOk, .btnNot, .btnDelPerson, .btnInfo {
+    color: white;
+    text-shadow: 0 0 1px black;
+    border: solid;
+    border-width: medium;
+    border-color: white;
+    border-radius: 20px;
+    padding-left: 25px;
+    font-weight: 500;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.btnDelete, .btnNot {
+    background-color: #f71735;
+    background-image: linear-gradient(147deg, #f71735 0%, #db3445 74%);
+    box-shadow: 0 0 5px 1px #db3445;
+}
+
+.btnEdit {
+    background-color: #eef268;
+    background-image: linear-gradient(319deg, #ddf246 0%, #ffcd00 37%, #faf16b 100%);
+    box-shadow: 0 0 5px 1px #b3b400;
+}
+
+.btnEdit > i {
+    left: 2px;
+    position: relative;
+}
+
+.btnInfo {
+    background-color: #708cf2;
+    background-image: linear-gradient(319deg, #9276f2 0%, #5057fa 37%, #27b4fd 100%);
+    box-shadow: 0 0 5px 1px #373df9;
+}
+
+.btnOk {
+    background-color: #dbf26e;
+    background-image: linear-gradient(319deg, #dbf26e 0%, #61fa74 37%, #1cfdd6 100%);
+    color: white;
+    box-shadow: 0 0 5px 1px #09c6f9;
+}
+
+.btnDelPerson {
+    background-color: #dbf26e;
+    background-image: linear-gradient(319deg, #dbf26e 0%, #61fa74 37%, #1cfdd6 100%);
+    color: white;
+    box-shadow: 0 0 5px 1px #09c6f9;
+}
+
+.btnSearchPost {
+    background-color: #708cf2;
+    background-image: linear-gradient(319deg, #9276f2 0%, #5057fa 37%, #27b4fd 100%);
+    box-shadow: 0 0 5px 1px #373df9;
+    color: white;
+    border-color: white;
+    border-width: medium;
+}
+
+.btnAddPost {
+    margin-left: .5%;
+    background-color: #708cf2;
+    background-image: linear-gradient(319deg, #9276f2 0%, #5057fa 37%, #27b4fd 100%);
+    color: white;
+    box-shadow: 0 0 5px 1px #373df9;
+    border-color: white;
+    border-width: medium;
+}
+
+.btnAddPost:focus {
+    box-shadow: none;
+}
+
+.btnSearchPost:focus {
+    box-shadow: none;
+}
+
+.card-buttons {
+    display: inline-block;
+}
+
+.myCard {
+    margin: 1%;
+    border: 1px solid rgba(0, 0, 0, .125) !important;
+    transition: .5s;
+}
+
+.myCard > .card-img-top {
+    padding: 3%;
+}
+
+.myCard:hover {
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+.searchOption {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchOption > label {
+    background: none;
+    border: none;
+    display: block;
+    padding-top: 0px !important;
+}
+
+.input-group-prepend > label {
+    background: none;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonsBox {
+    margin-left: 1rem;
+}
+
+.searchOptionBtn {
+    display: inline-block;
+}
+
+.nav-item > button {
+    background: none;
+    border: none;
+}
+
+.nav-item > input {
+    background: none !important;
+    border: none !important;
+}
+
+.buttonList > a:hover {
+    text-decoration: none;
+}
+
+/*Overlay*/
+.overlayImage {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlayContainer {
+    position: relative;
+    width: 100%;
+}
+.myOverlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 123, 255, 0.5);
+    filter: drop-shadow(0px 0px 0px cyan);
+    border-style: solid;
+    border-bottom: none;
+    border-width: 5px;
+    border-color: rgba(0, 123, 255, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .4s cubic-bezier(1, 0.98, 0, 0.01);
+}
+
+.overlayContainer:hover .myOverlay {
+    height: 100%;
+}
+
+.overlayText {
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/*Overlay*/

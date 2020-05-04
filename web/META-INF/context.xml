@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context>
+    <Resource
+            name="jdbc/KADR25.4"
+            auth="Container"
+            type="javax.sql.DataSource"
+            maxActive="200"
+            maxIdle="30"
+            maxWait="10000"
+            username="KADR25"
+            password="oracle"
+            driverClassName="oracle.jdbc.driver.OracleDriver"
+            url="jdbc:oracle:thin:@localhost:1521:XE"
+    />
+</Context>
